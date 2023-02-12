@@ -1,0 +1,161 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:white;
+}
+body{
+    margin: 0px;
+    background-color:#f7f2f2;
+    
+}
+a{
+    text-decoration :none
+}
+a:link{
+    color:#ffffff;
+}
+
+
+a:visited{
+    color: #ffffff;
+}
+
+.bodyimg{
+    
+    color:black;
+    top:10px;
+    position: absolute;
+    bottom: 30;
+    
+
+
+}
+.top-left {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color:black;
+    font-family: cursive;
+    font-size:50px
+  }
+.bodyimg p{
+    color:black;
+    font-size: 55px;
+    font-family: fantasy;
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.bodyimg h3{
+    color:#f7f2f2;
+    font-family: fantasy;
+    font-size: 30px;
+    width: 1600px;
+    position: absolute;
+    top:40%;
+    left:80%;
+    transform: translate(-40%, -40%);
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family: Georgia, serif;
+    height: 400px;
+    width: 500px;
+    
+    
+}
+.grid img{
+    border: 2px solid white;
+    border-radius: 50px;
+    position:absolute
+}
+.origami {
+    position:absolute;
+    border-radius: 20px;
+    background-color: black;
+    padding: 30px;
+    margin: 50px;
+    width:260px;
+    height: 175px;
+    font-family: fantasy;
+    bottom: 1%;
+    
+}
+
+.origami:hover{
+
+    transform: scale(1.2);
+}
+.chem:hover{
+    transform: scale(1.2);
+}
+.chem{
+    position:absolute;
+    border-radius: 20px;
+    background-color: black;
+    padding: 30px;
+    margin: 50px;
+    width:300px;
+    height: 175px;
+    font-family: fantasy;
+    bottom: 1%;
+    left:60%;
+    border-radius:40px
+    
+}
+.bio{
+    position:absolute;
+    border-radius: 20px;
+    background-color: black;
+    padding: 30px;
+    margin: 50px;
+    width:200px;
+    height: 200px;
+    font-family: fantasy;
+    bottom: 1%;
+    right:70%;
+    top:90%;
+    border-radius:40px
+}
+.bio:hover{
+    transform: scale(1.2);
+}
+.maths{
+    position:absolute;
+    border-radius: 20px;
+    background-color: black;
+    padding: 30px;
+    margin: 50px;
+    width:200px;
+    height: 200px;
+    font-family: fantasy;
+    bottom: 1%;
+    left:65%;
+    top:90%;
+    border-radius:40px
+}
+.maths:hover{
+    transform:scale(1.2);
+}
+.albert{
+    position:absolute;
+    border-radius: 20px;
+    background-color: rgb(8, 13, 13);
+    padding: 30px;
+    margin: 50px;
+    width:260px;
+    height: 175px;
+    font-family: fantasy;
+    bottom: 1%;
+}
+.albert:hover{
+    transform:scale(1.2);
+}
